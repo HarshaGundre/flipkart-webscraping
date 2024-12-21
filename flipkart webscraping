@@ -20,9 +20,6 @@ for page in range(1, 51):
             except AttributeError:
                 Rating = 'None'
 
-
-
-
             info = f"Name: {Name}, Price: {Price}, Rating: {Rating}"
             print(info)
 
